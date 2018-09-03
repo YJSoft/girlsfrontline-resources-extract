@@ -107,6 +107,11 @@ vscode
 resources
 res
 *.ab
+*.acb
+*.acb.bytes
+wav/
+text/
+config.ini
 
 # PyCharm
 .idea
