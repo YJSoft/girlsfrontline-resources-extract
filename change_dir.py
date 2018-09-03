@@ -6,7 +6,7 @@ from modules import data_parser
 
 
 # 프로그램 위치와 실행 위치가 다르면 전자로 변경
-if os.getcwd() != os.path.split(sys.argv[0])[0]:
+if os.getcwd() != os.path.split(sys.argv[0])[0] and os.path.split(sys.argv[0])[0] != "":
     os.chdir(os.path.split(sys.argv[0])[0])
 
 config = configparser.ConfigParser()
